@@ -8,7 +8,7 @@ using ConferenceBarrel.Models;
 namespace ConferenceBarrel.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20161221032212_initial")]
+    [Migration("20161221055620_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -37,7 +37,7 @@ namespace ConferenceBarrel.Migrations
 
                     b.Property<int>("ConferenceId");
 
-                    b.Property<string>("Tile");
+                    b.Property<string>("Title");
 
                     b.HasKey("Id");
 

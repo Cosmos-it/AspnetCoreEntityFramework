@@ -36,7 +36,7 @@ namespace ConferenceBarrel.Migrations
 
                     b.Property<int>("ConferenceId");
 
-                    b.Property<string>("Tile");
+                    b.Property<string>("Title");
 
                     b.HasKey("Id");
 

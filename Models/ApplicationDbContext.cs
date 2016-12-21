@@ -8,7 +8,7 @@ namespace ConferenceBarrel.Models
         public DbSet<Session> Sessions {get; set;}
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Filename=./confbarrel.db");
+            optionsBuilder.UseSqlite("Filename=./conberral2.db");
         }        
     }
 }

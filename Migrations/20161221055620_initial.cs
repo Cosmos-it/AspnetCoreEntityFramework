@@ -29,7 +29,7 @@ namespace ConferenceBarrel.Migrations
                     Id = table.Column<int>(nullable: false)
                         .Annotation("Autoincrement", true),
                     ConferenceId = table.Column<int>(nullable: false),
-                    Tile = table.Column<string>(nullable: true)
+                    Title = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
