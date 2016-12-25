@@ -7,7 +7,6 @@ namespace ConferenceBarrel.Models
         public int Id { get; set;}
         public string Name {get; set;}
         public decimal TicketeVlaue {get; set;}
-
         public List<Session> Sessions {get; set;}
 
 
